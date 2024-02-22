@@ -1,0 +1,217 @@
+
+
+body{
+    background-color: #f4f4fc;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+  position: absolute;
+    width: 10%;
+    height: 6%;
+    padding: 1% 0 0 2%;
+}
+
+main{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.seccion1{
+  position: absolute;
+  padding: 2%;
+  width: 40%;
+  height: 70%;
+}
+.contenedorCajaTexto{
+    position: absolute;
+    left: 1%;
+    top: 5%;
+    width: 100%;
+    height: 90%;
+    background: #f4f4fc;
+}
+
+.cajaTexto{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    background: #f4f4fc;
+}
+
+.cajaTexto::placeholder{
+    color: #0A3871;
+}
+
+.alerta{
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    display: flex;
+    color: #495057;
+}
+
+.contenedorBotones{
+    position: absolute;
+    width: 100%;
+    top: 98%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonEncriptar{
+    width: 45%;
+    height: 90%;
+    margin: 1% 0;
+    border-radius: 24px;
+    background: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+
+.botonDesencriptar{
+    width: 45%;
+    height: 90%;
+    margin: 1% 0;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+}
+
+.botonEncriptar:hover, .botonDesencriptar:hover{
+  width: 48%;
+  height: 91%;
+  border: 2px solid black;
+  cursor: pointer;
+
+}
+
+.seccion2{
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    right: 5%;
+    top: 2%;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.contenedorPersonaje{
+    position: relative;
+    left: 3%;
+    top: 1%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.personaje{
+  position: absolute;
+  width:80% ;
+  padding: 5% 5%;
+}
+
+.contenedorParrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 70%;
+    left: 10%;
+ }
+
+ .contenedorParrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343A40;
+}
+
+.contenedorParrafo p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 2%;
+}
+
+.contenedorResultado{
+    position: absolute;
+    width: 80%;
+    height: 55%;
+    margin: 5% 5%;
+  
+}
+
+.textoResultado {
+    color: #495057;
+    margin: 2% 2%;
+    text-align: center;
+    word-break: break-all;
+    font-size: 25px;
+}
+
+.contenedorCopiar{
+    width: 100%;
+    height: 15%;
+    top: 98%;
+    position: absolute;
+    display: flex;
+    top: 90%;
+    justify-content: space-around;
+    background: #f4f4fc;
+}
+
+.botonCopiar{
+    width: 80%;
+    height: 80%;
+    border-radius: 24px;
+    background: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    top: 5%;
+    position: absolute;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+/*
+@media (max-width: 57.5em) {
+  .contenedorCajaTexto{
+    background-color: red;
+  }
+  
+  botonCopiar{
+    background-color: red;
+  }
+    
+  
+  
+}
+
+*/
